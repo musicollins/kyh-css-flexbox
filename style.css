@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;500;700&family=Roboto:wght@100;400;700&display=swap');
+
+:root{
+    --color-primary: black;
+    --color-secondary: white;
+    --color-extra: grey;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+
+.grid{
+    display: grid;
+    /*if [1fr] 1 column AND 100% of space (viewport width)*/
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 300px 100px; */
+}
+
+.grid > section{
+    border: 1px solid var(--color-secondary);
+    
+}
+
+.grid > section:hover{
+    border: 1px solid var(--color-extra);
+}
+
+
+
+
+
+
+
+
+
